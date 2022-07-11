@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Добавить примечание"
   },
+  "addMoreNetworks": {
+    "message": "добавить другие сети вручную"
+  },
   "addNetwork": {
     "message": "Добавить сеть"
   },
@@ -435,10 +438,10 @@
     "description": "$1 represents the crypto symbol to be purchased"
   },
   "buyWithWyre": {
-    "message": "Купить $1 с помощью Wyre"
+    "message": "Купить 1 $ с помощью Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre позволяет использовать дебетовую карту для внесения $1 прямо на ваш счет MetaMask."
+    "message": "Простая регистрация для покупок на сумму до 1000 $. Быстрая интерактивная проверка покупки с высоким лимитом. Поддерживает дебетовые/кредитные карты, Apple Pay, банковские переводы. Доступно в более чем 100 странах. Токены зачисляются на ваш счет MetaMask"
   },
   "bytes": {
     "message": "Байты"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Чтобы $1 транзакции плата за газ должна быть увеличена как минимум на 10%. Это позволит обеспечить прием транзакции сетью.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Отменить обмен на ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Отменить обмен бесплатно"
   },
   "cancellationGasFee": {
     "message": "Плата за газ при отмене"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Сеть:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Сеть успешно добавлена!"
+  },
   "networkDetails": {
     "message": "Сведения о сети"
   },
@@ -2062,6 +2075,9 @@
   "nextNonceWarning": {
     "message": "Одноразовый номер больше, чем предложенный одноразовый номер $1",
     "description": "The next nonce according to MetaMask's internal logic"
+  },
+  "nft": {
+    "message": "NFT"
   },
   "nftTokenIdPlaceholder": {
     "message": "Введите ид. коллекционного актива"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Выберите это, чтобы отображать цену газа и управление лимитами непосредственно на экранах отправки и подтверждения."
   },
+  "showCustomNetworkList": {
+    "message": "Показать пользовательский список сетей"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Выберите это, чтобы отобразить список сетей с предварительно заполненными данными при добавлении новой сети."
+  },
   "showFiatConversionInTestnets": {
     "message": "Показывать конвертацию в тестовых сетях"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Снап будет работать только в том случае, если он включен"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Некоторые сети могут представлять угрозу безопасности и/или конфиденциальности. Прежде чем добавлять и использовать сеть, ознакомьтесь с рисками."
   },
   "somethingWentWrong": {
     "message": "Ой! Что-то пошло не так."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Сменить сети"
   },
+  "switchToNetwork": {
+    "message": "Переключиться на $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Переключиться на этот счет"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Ой! Что-то пошло не так...."
   },
+  "unknownCollection": {
+    "message": "Безымянная коллекция"
+  },
   "unknownNetwork": {
     "message": "Неизвестная частная сеть"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Кошелек создан"
   },
+  "wantToAddThisNetwork": {
+    "message": "Хотите добавить эту сеть?"
+  },
   "warning": {
     "message": "Предупреждение"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Да, давайте попробуем"
+  },
+  "youHaveAddedAll": {
+    "message": "Вы добавили все популярные сети. Вы можете открыть для себя больше сетей $1 или можете $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Для использования этой функции вам необходимо предоставить доступ к камере."

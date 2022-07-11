@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Not ekleyin"
   },
+  "addMoreNetworks": {
+    "message": "manuel olarak daha fazla ağ ekleyin"
+  },
   "addNetwork": {
     "message": "Ağ ekle"
   },
@@ -438,7 +441,7 @@
     "message": "Wyre ile $1 satın al"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre, doğrudan MetaMask hesabınıza $1 yatırma işlemleri için banka kartı kullanmanıza izin verir."
+    "message": "1000$'a kadar satın alma işlemlerinde kolay oryantasyon. Banka Kartı/Kredi Kartı, Apple Pay, Banka Transferlerini destekler. +100 ülkede kullanılabilir. Token'lar MetaMask Hesabına yatırılır"
   },
   "bytes": {
     "message": "Bayt"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "İşlemi $1 için, gaz ücretinin ağ tarafından tanınması amacıyla en az %10 oranında artırılması gerekir.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "~$1 için swap işlemini iptal edin",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Swap işlemini ücretsiz iptal edin"
   },
   "cancellationGasFee": {
     "message": "İptal İşlemi Gaz Ücreti"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Ağ:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Ağ başarılı bir şekilde eklendi!"
+  },
   "networkDetails": {
     "message": "Ağ Bilgileri"
   },
@@ -2063,6 +2076,9 @@
     "message": "Geçici anahtar, önerilen $1 geçici anahtarından daha büyük",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Toplanabilir kimliğini girin"
   },
@@ -2158,7 +2174,7 @@
     "message": "Karanlık modu etkinleştir"
   },
   "notifications12Description": {
-    "message": "Karanlık Mod, sistem tercihlerine bağlı olarak yeni kullanıcılar için etkinleştirilecektir. Mevcut kullanıcılar için, Ayarlar -> Deneysel altında Karanlık Modu manuel olarak etkinleştir."
+    "message": "Uzantıda karanlık mod sonunda burada! Bunu açmak için Ayarlar -> Deneysel kısmına git ve ekran seçeneklerinden birini seç: Aydınlık, Karanlık, Sistem."
   },
   "notifications12Title": {
     "message": "Karanlık mod mu? Şimdi karanlık mod! 🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Gaz fiyatı ve limit kontrollerini doğrudan gönder ve onayla ekranlarında göstermek için bunu seçin."
   },
+  "showCustomNetworkList": {
+    "message": "Özel Ağ Listesini Göster"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Yeni bir ağ eklerken önceden doldurulan bilgilerle ağ listesini görüntülenmesi için bunu seçin."
+  },
   "showFiatConversionInTestnets": {
     "message": "Test ağlarında Dönüşümü göster"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Bir snap yalnızca etkinleştirilmişse çalışır"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Bazı ağlar güvenlik ve/veya gizlilik riskleri teşkil edebilir. Bir ağ eklemeden ve kullanmadan önce riskleri anlayın."
   },
   "somethingWentWrong": {
     "message": "Eyvah! Bir şeyler ters gitti."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Ağları Değiştir"
   },
+  "switchToNetwork": {
+    "message": "$1 ağına geçin",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Bu hesaba geç"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Eyvah! Bir şeyler ters gitti...."
   },
+  "unknownCollection": {
+    "message": "İsimsiz koleksiyon"
+  },
   "unknownNetwork": {
     "message": "Bilinmeyen Özel Ağ"
   },
@@ -3970,7 +4002,7 @@
     "description": "$1 is the action type. e.g (Account, Transaction, Swap)"
   },
   "visitWebSite": {
-    "message": "Web sitemizi ziyaret edin"
+    "message": "Web sitemizi ziyaret et"
   },
   "walletConnectionGuide": {
     "message": "donanım cüzdanı bağlantı kılavuzumuz"
@@ -3994,6 +4026,9 @@
   },
   "walletCreationSuccessTitle": {
     "message": "Cüzdan oluşturma başarılı"
+  },
+  "wantToAddThisNetwork": {
+    "message": "Bu ağı eklemek istiyor musunuz?"
   },
   "warning": {
     "message": "Uyarı"
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Evet, deneyelim"
+  },
+  "youHaveAddedAll": {
+    "message": "Tüm popüler ağları eklediniz. $1 daha fazla ağ gekşefedebilir veya $2 seçeneğini seçebilirsiniz",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Bu özelliği kullanmak için kamera erişimine izin vermeniz gerekir."

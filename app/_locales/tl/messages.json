@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Magdagdag ng memo"
   },
+  "addMoreNetworks": {
+    "message": "magdagdag pa ng mga network nang mano-mano"
+  },
   "addNetwork": {
     "message": "Magdagdag ng Network"
   },
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Sa $1 na transaksyon ang singil sa gas ay dapat tumaas nang hindi bababa sa 10% para ito ay makilala ng network.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Kanselahin ang swap sa halagang ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Kanselahin ang swap nang libre"
   },
   "cancellationGasFee": {
     "message": "Bayarin sa Gasolina para sa Pagkansela"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Network:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Matagumpay na naidagdag ang network!"
+  },
   "networkDetails": {
     "message": "Mga Detalye ng Network"
   },
@@ -2062,6 +2075,9 @@
   "nextNonceWarning": {
     "message": "Mas mataas ang noncesa iminumungkahing nonce na $1",
     "description": "The next nonce according to MetaMask's internal logic"
+  },
+  "nft": {
+    "message": "NFT"
   },
   "nftTokenIdPlaceholder": {
     "message": "Ilagay ang collectible ID"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Piliin ito para direktang maipakita ang presyo ng gas at mga kontrol sa limitasyon sa mga screen ng pagpapadala at pagkumpirma."
   },
+  "showCustomNetworkList": {
+    "message": "Ipakita ang Listahan ng Custom na Network"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Piliin ito para magpakita ng listahan ng mga network na may prefilled na mga detalye kapag nagdaragdag ng bagong network."
+  },
   "showFiatConversionInTestnets": {
     "message": "Ipakita ang Conversion sa Testnets"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Tatakbo lamang ang snap kapag pinagana ito"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Maaaring magdulot ang ilang network ng mga panganib sa seguridad at/o pagkapribado. Unawain ang mga panganib bago idagdag o gamitin ang isang network."
   },
   "somethingWentWrong": {
     "message": "Oops! Nagkaproblema."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Lumipat ng Network"
   },
+  "switchToNetwork": {
+    "message": "Lumipat sa $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Lumipat sa account na ito"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Ooops! Nagkaproblema...."
   },
+  "unknownCollection": {
+    "message": "Walang pangalang koleksyon"
+  },
   "unknownNetwork": {
     "message": "Hindi Alam na Pribadong Network"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Matagumpay ang paggawa ng wallet"
   },
+  "wantToAddThisNetwork": {
+    "message": "Gusto mo bang idagdag ang network na ito?"
+  },
   "warning": {
     "message": "Babala"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Oo, subukan natin"
+  },
+  "youHaveAddedAll": {
+    "message": "Idinagdag mo ang lahat ng sikat na network. Maaari kang makatuklas ng higit pang mga network $1 O maaari kang",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Kailangan mong payagan ang pag-access sa camera para magamit ang feature na ito."

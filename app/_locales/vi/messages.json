@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Thêm bản ghi nhớ"
   },
+  "addMoreNetworks": {
+    "message": "thêm thủ công các mạng khác"
+  },
   "addNetwork": {
     "message": "Thêm mạng"
   },
@@ -438,7 +441,7 @@
     "message": "Mua $1 qua Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre cho phép bạn dùng thẻ ghi nợ để nạp $1 trực tiếp vào tài khoản MetaMask của mình."
+    "message": "Dễ dàng tham gia đối với các giao dịch mua lên đến $1.000. Xác minh mua hàng giới hạn cao và tương tác nhanh. Hỗ trợ Thẻ Tín dụng/Ghi nợ, Apple Pay, Chuyển khoản Ngân hàng. Hiện có tại hơn 100 quốc gia. Nạp token vào Tài khoản MetaMask của bạn"
   },
   "bytes": {
     "message": "Byte"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Để $1 một giao dịch, phí gas phải tăng tối thiểu 10% để mạng nhận ra giao dịch này.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Hủy hoán đổi với ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Hủy hoán đổi miễn phí"
   },
   "cancellationGasFee": {
     "message": "Phí gas hủy"
@@ -650,7 +660,7 @@
     "message": "Tương tác với hợp đồng"
   },
   "convertTokenToNFTDescription": {
-    "message": "Chúng tôi phát hiện tài sản này là một NFT. MetaMask hiện đã hỗ trợ gốc đầy đủ cho NFT. Bạn có muốn xóa tài sản khỏi danh sách token và thêm tài sản dưới dạng NFT không?"
+    "message": "Chúng tôi phát hiện tài sản này là một NFT. MetaMask hiện đã hỗ trợ toàn diện và đầy đủ cho NFT. Bạn có muốn xóa tài sản khỏi danh sách token và thêm tài sản dưới dạng NFT không?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Chúng tôi phát hiện tài sản này đã được thêm dưới dạng NFT. Bạn có muốn xóa tài sản khỏi danh sách token không?"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Mạng:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Đã thêm mạng thành công!"
+  },
   "networkDetails": {
     "message": "Thông tin về mạng"
   },
@@ -2063,6 +2076,9 @@
     "message": "Số chỉ dùng một lần lớn hơn số chỉ dùng một lần gợi ý là $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Nhập ID bộ sưu tập"
   },
@@ -2158,7 +2174,7 @@
     "message": "Bật chế độ tối"
   },
   "notifications12Description": {
-    "message": "Chế độ tối sẽ được kích hoạt dành cho người dùng mới tùy theo tùy chọn hệ thống của họ. Đối với người dùng hiện tại, có thể bật Chế độ tối theo cách thủ công trong phần Cài đặt -> Thử nghiệm."
+    "message": "Tiện ích Chế độ tối hiện đã ra mắt! Để bật, hãy vào Cài đặt -> Thử nghiệm và chọn một trong các tùy chọn hiển thị: Sáng, Tối, Hệ thống."
   },
   "notifications12Title": {
     "message": "Dùng chế độ tối khi nào? Ngay bây giờ! 🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Chọn tùy chọn này để hiển thị các quyền kiểm soát giá gas và giới hạn ngay trên màn hình gửi và xác nhận."
   },
+  "showCustomNetworkList": {
+    "message": "Hiển thị danh sách mạng tùy chỉnh"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Chọn tùy chọn này để hiển thị danh sách các mạng có thông tin được điền sẵn khi thêm mạng mới."
+  },
   "showFiatConversionInTestnets": {
     "message": "Hiển thị tỷ lệ quy đổi trên các mạng thử nghiệm"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Snap chỉ hoạt động khi đã bật"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Một số mạng có thể gây ra rủi ro về bảo mật và/hoặc quyền riêng tư. Bạn cần hiểu rõ các rủi ro này trước khi thêm và sử dụng mạng."
   },
   "somethingWentWrong": {
     "message": "Rất tiếc! Đã xảy ra sự cố."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Chuyển mạng"
   },
+  "switchToNetwork": {
+    "message": "Chuyển sang $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Chuyển sang tài khoản này"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Rất tiếc! Đã xảy ra sự cố...."
   },
+  "unknownCollection": {
+    "message": "Bộ sưu tập chưa có tên"
+  },
   "unknownNetwork": {
     "message": "Mạng riêng không xác định"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Tạo ví thành công"
   },
+  "wantToAddThisNetwork": {
+    "message": "Bạn muốn thêm mạng này?"
+  },
   "warning": {
     "message": "Cảnh báo"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Có, hãy thử"
+  },
+  "youHaveAddedAll": {
+    "message": "Bạn đã thêm tất cả các mạng phổ biến. Bạn có thể khám phá thêm nhiều mạng khác $1 Hoặc bạn có thể $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Bạn cần cho phép truy cập vào máy ảnh để sử dụng tính năng này."

@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "メモを追加"
   },
+  "addMoreNetworks": {
+    "message": "他のネットワークを手動で追加"
+  },
   "addNetwork": {
     "message": "ネットワークを追加"
   },
@@ -435,10 +438,10 @@
     "description": "$1 represents the crypto symbol to be purchased"
   },
   "buyWithWyre": {
-    "message": "Wyreで $1 を購入"
+    "message": "Wyreで$1を購入"
   },
   "buyWithWyreDescription": {
-    "message": "Wyreを使用すると、デビット カードを使用して、$1 をMetaMaskアカウントに直接デポジットできます。"
+    "message": "簡単なオンボーディングプロセスで最高 $ 1000 購入可能。迅速かつインタラクティブな高限度額の購入検証。デビット・クレジットカード、Apple Pay、銀行送金に対応。100か国以上で利用可能。トークンは MetaMask アカウントに入金されます。"
   },
   "bytes": {
     "message": "バイト"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "トランザクションを$1するには、ネットワークに認識されるようにガス代を 10% 以上増額する必要があります。",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "$1 以下でスワップをキャンセル",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "無料でスワップをキャンセル"
   },
   "cancellationGasFee": {
     "message": "キャンセルのガス代"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "ネットワーク:"
   },
+  "networkAddedSuccessfully": {
+    "message": "ネットワークが追加されました！"
+  },
   "networkDetails": {
     "message": "ネットワークの詳細"
   },
@@ -2063,6 +2076,9 @@
     "message": "ナンスが提案され$1よりも大きいです",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "コレクティブルIDを入力してください"
   },
@@ -2158,7 +2174,7 @@
     "message": "ダークモードを有効にする"
   },
   "notifications12Description": {
-    "message": "新規ユーザーの場合、システム設定に従ってダークモードが有効になります。既存のユーザーは、設定 -> 実験的機能で、ダークモードを手動で有効にできます。"
+    "message": "拡張機能のダークモードがついに追加されました！オンにするには、設定 - 実験的機能の順に移動し、ライト、ダーク、システムの表示オプションから一つを選択してください。"
   },
   "notifications12Title": {
     "message": "いつダークモードに？今ダークモードです！🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "これを選択すると、ガス代と限度額のコントロールが送金画面と確認画面に直接表示されます。"
   },
+  "showCustomNetworkList": {
+    "message": "カスタムネットワークリストを表示"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "新規ネットワークの追加時に事前に情報が入力済みのネットワークのリストを表示するには、これを選択します。"
+  },
   "showFiatConversionInTestnets": {
     "message": "テストネット上に変換を表示"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "スナップは有効になっている場合にのみ実行されます"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "ネットワークによっては、セキュリティやプライバシーの面でリスクが伴う可能性があります。ネットワークを追加・使用する前にリスクを理解するようにしてください。"
   },
   "somethingWentWrong": {
     "message": "申し訳ありません。問題が発生しました。"
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "ネットワークを切り替える"
   },
+  "switchToNetwork": {
+    "message": "$1 に切り替える",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "このアカウントに切り替える"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "申し訳ありません。問題が発生しました..."
   },
+  "unknownCollection": {
+    "message": "無名のコレクション"
+  },
   "unknownNetwork": {
     "message": "不明なプライベートネットワーク"
   },
@@ -3970,7 +4002,7 @@
     "description": "$1 is the action type. e.g (Account, Transaction, Swap)"
   },
   "visitWebSite": {
-    "message": "弊社Webサイトにアクセス"
+    "message": "弊社 Web サイトにアクセス"
   },
   "walletConnectionGuide": {
     "message": "弊社のハードウェアウォレット接続ガイド"
@@ -3994,6 +4026,9 @@
   },
   "walletCreationSuccessTitle": {
     "message": "ウォレットが作成されました"
+  },
+  "wantToAddThisNetwork": {
+    "message": "このネットワークを追加しますか？"
   },
   "warning": {
     "message": "警告"
@@ -4057,11 +4092,15 @@
   "yesLetsTry": {
     "message": "はい、やってみます"
   },
+  "youHaveAddedAll": {
+    "message": "すべての人気ネットワークを追加しました。$1で他のネットワークを発見するか、$2できます。",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
+  },
   "youNeedToAllowCameraAccess": {
     "message": "この機能を使用するには、カメラへのアクセスを許可する必要があります。"
   },
   "youSign": {
-    "message": "署名しています"
+    "message": "著名しています"
   },
   "yourPrivateSeedPhrase": {
     "message": "秘密のシークレットリカバリーフレーズ"

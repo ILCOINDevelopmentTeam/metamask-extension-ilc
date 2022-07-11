@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Añadir memo"
   },
+  "addMoreNetworks": {
+    "message": "agregar más redes manualmente"
+  },
   "addNetwork": {
     "message": "Agregar red"
   },
@@ -438,7 +441,7 @@
     "message": "Comprar $1 con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Acceso fácil a transacciones de $ 1,000 o menos con verificación rápida y efectiva. Aceptamos tarjetas débito, crédito, Apple Pay y transferencias bancarias en más de 100 países. Tokens serán depósitados en su MetaMask."
+    "message": "Acceso fácil a compras de hasta $1,000. Verificación interactiva rápida de compra de límite alto. Acepta tarjeta de débito/crédito, Apple Pay y transferencias bancarias. Disponible para más de 100 países. Los tokens se depositarán en su cuenta MetaMask"
   },
   "bytes": {
     "message": "Bytes"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Para $1 una transacción, la tarifa de gas debe aumentar al menos un 10% para que sea reconocida por la red.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Cancelar el swap por ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Cancelar el swap gratuitamente"
   },
   "cancellationGasFee": {
     "message": "Cuota de gas por cancelación"
@@ -650,7 +660,7 @@
     "message": "Interacción con el contrato"
   },
   "convertTokenToNFTDescription": {
-    "message": "Hemos detectado que este activo es un NFT. MetaMask ahora tiene soporte nativo completo para NFTs. ¿Quieres eliminarlo de tu lista de tokens y añadirlo como un NFT?"
+    "message": "Hemos detectado que este activo es un NFT. MetaMask ahora tiene soporte nativo completo para NFT. ¿Quiere eliminarlo de su lista de tokens y añadirlo como un NFT?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Hemos detectado que este recurso se ha agregado como NFT. ¿Quiere eliminarlo de su lista de tokens?"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Red:"
   },
+  "networkAddedSuccessfully": {
+    "message": "¡Red añadida exitosamente!"
+  },
   "networkDetails": {
     "message": "Detalles de la red"
   },
@@ -2063,6 +2076,9 @@
     "message": "El nonce es superior al nonce sugerido de $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Ingresa el ID del token"
   },
@@ -2158,7 +2174,7 @@
     "message": "Habilitar modo oscuro"
   },
   "notifications12Description": {
-    "message": "¡El modo oscuro en Extension finalmente está aquí! Para encenderlo, vaya a Configuración -> Experimental y seleccione una de las opciones de visualización: Claro, Oscuro, Sistema."
+    "message": "¡El modo oscuro en Extensión finalmente está aquí! Para activarlo, vaya a Configuración -> Experimental y seleccione una de las opciones de visualización: Claro, Oscuro, Sistema."
   },
   "notifications12Title": {
     "message": "¿Cuándo estará disponible el modo oscuro? ¡Ahora! 🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Seleccione esta opción para mostrar el precio del gas y limitar los controles directamente en las pantallas de envío y confirmación."
   },
+  "showCustomNetworkList": {
+    "message": "Mostrar lista de redes personalizadas"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Seleccione esto para mostrar una lista de redes con detalles precargados al agregar una red nueva."
+  },
   "showFiatConversionInTestnets": {
     "message": "Mostrar conversión en redes de prueba"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Un complemento solo se ejecutará si está habilitado"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Algunas redes pueden presentar riesgos de seguridad y/o privacidad. Comprenda los riesgos antes de agregar y utilizar una red."
   },
   "somethingWentWrong": {
     "message": "Lo lamentamos, se produjo un error."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Cambiar redes"
   },
+  "switchToNetwork": {
+    "message": "Cambiar a $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Cambiar a esta cuenta"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Lo lamentamos, se produjo un error…"
   },
+  "unknownCollection": {
+    "message": "Colección sin nombre"
+  },
   "unknownNetwork": {
     "message": "Red privada desconocida"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Creación exitosa de la cartera"
   },
+  "wantToAddThisNetwork": {
+    "message": "¿Desea añadir esta red?"
+  },
   "warning": {
     "message": "Advertencia"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Sí, intentémoslo"
+  },
+  "youHaveAddedAll": {
+    "message": "Ha agregado todas las redes populares. Puede descubrir más redes $1 o puede $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Necesita permitir el acceso a la cámara para usar esta función."

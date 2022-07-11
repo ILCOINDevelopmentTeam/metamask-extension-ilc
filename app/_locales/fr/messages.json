@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Ajouter un mémo"
   },
+  "addMoreNetworks": {
+    "message": "ajouter manuellement d’autres réseaux"
+  },
   "addNetwork": {
     "message": "Ajouter un réseau"
   },
@@ -438,7 +441,7 @@
     "message": "Acheter des $1 avec Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vous permet d’utiliser une carte de crédit pour déposer des $1 directement sur votre compte MetaMask."
+    "message": "Intégration facile pour les achats à hauteur de 1000 $. Vérification interactive et rapide des achats pour les comptes qui bénéficient d’un plafond de paiement élevé. Prise en charge des cartes de débit/crédit, d’Apple Pay et des virements bancaires. Disponible dans plus de 100 pays. Dépôt de jetons sur votre compte MetaMask."
   },
   "bytes": {
     "message": "Octets"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Pour $1 la transaction, les gas fees doivent être augmentés d’au moins 10 % pour être reconnus par le réseau.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Annuler le swap pour ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Annuler le swap gratuitement"
   },
   "cancellationGasFee": {
     "message": "Frais d’annulation de carburant"
@@ -650,7 +660,7 @@
     "message": "Interaction avec un contrat"
   },
   "convertTokenToNFTDescription": {
-    "message": "Nous avons détecté que cet actif est un NFT. MetaMask prend désormais nativement en charge les NFT. Voulez-vous le retirer de votre liste de tokens et l’ajouter comme un NFT ?"
+    "message": "Nous avons détecté que cet actif est un NFT. MetaMask prend désormais nativement en charge les NFT. Voulez-vous le retirer de votre liste de jetons et l’ajouter en tant que NFT ?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Nous avons détecté que cet actif a été ajouté en tant que NFT. Souhaitez-vous le retirer de votre liste de tokens ?"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Réseau :"
   },
+  "networkAddedSuccessfully": {
+    "message": "Réseau ajouté avec succès !"
+  },
   "networkDetails": {
     "message": "Détails du réseau"
   },
@@ -2063,6 +2076,9 @@
     "message": "Le nonce est supérieur au nonce suggéré de $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Saisissez l’ID du collectible"
   },
@@ -2158,7 +2174,7 @@
     "message": "Activer le mode sombre"
   },
   "notifications12Description": {
-    "message": "Le mode sombre sera activé pour les nouveaux utilisateurs en fonction de leurs préférences système. Les utilisateurs existants peuvent activer manuellement le mode sombre dans Paramètres -> Expérimental."
+    "message": "Le mode sombre est enfin disponible pour l’extension ! Pour changer le mode d'affichage, allez dans « Paramètres » -> « Expérimental » et sélectionnez l’une des options suivantes : Clair, Sombre, Système."
   },
   "notifications12Title": {
     "message": "Mode sombre, quand ? Mode sombre maintenant ! 🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Sélectionnez cette option pour afficher le prix du carburant et les contrôles des limites directement sur les écrans d’envoi et de confirmation."
   },
+  "showCustomNetworkList": {
+    "message": "Afficher la liste des réseaux personnalisés"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Sélectionnez cette option pour afficher une liste de réseaux dont l’adresse est préremplie lorsque vous ajoutez un nouveau réseau."
+  },
   "showFiatConversionInTestnets": {
     "message": "Afficher la conversion sur Testnets"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Un snap ne s’exécute que s’il est activé"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Certains réseaux peuvent présenter des risques pour la sécurité et/ou la vie privée. Informez-vous sur les risques avant d’ajouter et d’utiliser un réseau."
   },
   "somethingWentWrong": {
     "message": "Oups !  Quelque chose a mal tourné. "
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Changer de réseau"
   },
+  "switchToNetwork": {
+    "message": "Passer à $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Basculer vers ce compte"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Oups ! Il y a eu un problème...."
   },
+  "unknownCollection": {
+    "message": "Collection sans nom"
+  },
   "unknownNetwork": {
     "message": "Réseau privé inconnu"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Portefeuille créé avec succès"
   },
+  "wantToAddThisNetwork": {
+    "message": "Voulez-vous ajouter ce réseau ?"
+  },
   "warning": {
     "message": "Avertissement"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Oui, essayons"
+  },
+  "youHaveAddedAll": {
+    "message": "Vous avez ajouté tous les réseaux populaires. Vous pouvez découvrir d’autres réseaux $1 ou $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Vous devez autoriser l’accès à votre appareil pour utiliser cette fonctionnalité."

@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Προσθήκη σημειώματος"
   },
+  "addMoreNetworks": {
+    "message": "προσθέστε περισσότερα δίκτυα χειροκίνητα"
+  },
   "addNetwork": {
     "message": "Προσθήκη Δικτύου"
   },
@@ -438,7 +441,7 @@
     "message": "Αγοράστε $1 με το Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Το Wyre σας επιτρέπει να χρησιμοποιήσετε μια πιστωτική κάρτα για να καταθέσετε $1 απευθείας στον λογαριασμό σας MetaTask."
+    "message": "Εύκολη ενσωμάτωση για αγορές μέχρι και $ 1000. Γρήγορη διαδραστική επαλήθευση αγοράς υψηλού ορίου. Υποστηρίζει χρεωστικές/πιστωτικές κάρτες, Apple Pay, Τραπεζικές Μεταφορές. Διαθέσιμο σε 100+ χώρες. Καταθέσεις token στον λογαριασμό σας MetaMask"
   },
   "bytes": {
     "message": "Bytes"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Για να $1 τη συναλλαγή, τα τέλη συναλλαγής πρέπει να αυξηθούν κατά τουλάχιστον 10% ώστε να αναγνωριστούν από το δίκτυο.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Ακυρώστε τη συναλλαγή για ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Ακυρώστε τη συναλλαγή δωρεάν"
   },
   "cancellationGasFee": {
     "message": "Ακύρωση Χρέωσης Αερίου"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Δίκτυο:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Το δίκτυο προστέθηκε επιτυχώς!"
+  },
   "networkDetails": {
     "message": "Λεπτομέρειες Δικτύου"
   },
@@ -2063,6 +2076,9 @@
     "message": "Το Nonce είναι υψηλότερο από το προτεινόμενο nonce του $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Εισάγετε το συλλεκτικό αναγνωριστικό"
   },
@@ -2158,7 +2174,7 @@
     "message": "Ενεργοποίηση dark mode"
   },
   "notifications12Description": {
-    "message": "Το Dark Mode (σκουρόχρωμη λειτουργία) θα ενεργοποιηθεί για νέους χρήστες ανάλογα με τις προτιμήσεις του συστήματός τους. Εάν είστε ήδη χρήστης, ενεργοποιήστε τo dark mode με μη αυτόματο τρόπο στην ενότητα Ρυθμίσεις -> Πειραματικές."
+    "message": "Έφτασε επιτέλους το Dark Mode (σκουρόχρωμη λειτουργία)! Για να το ενεργοποιήσετε, μεταβείτε στις Ρυθμίσεις -> Πειραματικό και επιλέξτε μία από τις επιλογές εμφάνισης: Light, Dark, Σύστημα."
   },
   "notifications12Title": {
     "message": "Θέλετε dark mode; Τώρα έχετε dark mode! 🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Επιλέξτε αυτό για να εμφανίσετε τις τιμές αερίου και να περιορίσετε τα στοιχεία ελέγχου απευθείας στις οθόνες αποστολής και επιβεβαίωσης."
   },
+  "showCustomNetworkList": {
+    "message": "Προβολή Λίστας Προσαρμοσμένων Δικτύων"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Επιλέξτε αυτό για να εμφανιστεί μια λίστα δικτύων με προσυμπληρωμένα στοιχεία κατά την προσθήκη ενός νέου δικτύου."
+  },
   "showFiatConversionInTestnets": {
     "message": "Εμφάνιση Μετατροπής σε Δοκιμαστικά Δίκτυα"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Ένα snap θα εκτελεστεί μόνο εάν είναι ενεργοποιημένο"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Ορισμένα δίκτυα ενδέχεται να ενέχουν κινδύνους για την ασφάλεια ή/και το απόρρητο. Ενημερωθείτε για τους κινδύνους πριν προσθέσετε και χρησιμοποιήσετε ένα δίκτυο."
   },
   "somethingWentWrong": {
     "message": "Ουπς! Κάτι πήγε στραβά."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Αλλαγή Δικτύων"
   },
+  "switchToNetwork": {
+    "message": "Εναλλαγή σε $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Εναλλαγή σε αυτόν τον λογαριασμό"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Ουπς! Κάτι πήγε στραβά...."
   },
+  "unknownCollection": {
+    "message": "Ανώνυμη συλλογή"
+  },
   "unknownNetwork": {
     "message": "Άγνωστο Ιδιωτικό Δίκτυο"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Επιτυχής δημιουργία πορτοφολιού"
   },
+  "wantToAddThisNetwork": {
+    "message": "Θέλετε να προσθέσετε αυτό το δίκτυο;"
+  },
   "warning": {
     "message": "Προειδοποίηση"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Ναι, ας δοκιμάσουμε"
+  },
+  "youHaveAddedAll": {
+    "message": "Προσθέσατε όλα τα δημοφιλή δίκτυα. Μπορείτε να ανακαλύψετε περισσότερα δίκτυα $1 Ή μπορείτε να \n $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Πρέπει να επιτρέψετε πρόσβαση στην κάμερα για να χρησιμοποιήσετε αυτήν τη λειτουργία."

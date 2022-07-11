@@ -157,6 +157,9 @@
   "addMemo": {
     "message": "Tambahkan memo"
   },
+  "addMoreNetworks": {
+    "message": "tambahkan jaringan secara manual"
+  },
   "addNetwork": {
     "message": "Tambahkan Jaringan"
   },
@@ -438,7 +441,7 @@
     "message": "Beli $1 dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre memungkinkan Anda menggunakan kartu debit untuk menyetorkan ETH langsung di akun MetaMask Anda."
+    "message": "Orientasi mudah untuk pembelian hingga $ 1000. Verifikasi pembelian limit tinggi interaktif yang cepat. Mendukung Kartu Debit/Kredit, Apple Pay, Transfer Bank. Tersedia di 100+ negara. Token disetor ke Akun MetaMask Anda"
   },
   "bytes": {
     "message": "Byte"
@@ -465,6 +468,13 @@
   "cancelSpeedUpTransactionTooltip": {
     "message": "Untuk $1 suatu transaksi, biaya gas harus dinaikkan minimal 10% agar dapat dikenali oleh jaringan.",
     "description": "$1 is string 'cancel' or 'speed up'"
+  },
+  "cancelSwapForFee": {
+    "message": "Batalkan swap untuk ~$1",
+    "description": "$1 could be e.g. $2.98, it is a cost for cancelling a Smart Transaction"
+  },
+  "cancelSwapForFree": {
+    "message": "Batalkan swap gratis"
   },
   "cancellationGasFee": {
     "message": "Biaya Pembatalan Gas"
@@ -650,7 +660,7 @@
     "message": "Interaksi Kontrak"
   },
   "convertTokenToNFTDescription": {
-    "message": "Kami mendeteksi bahwa aset ini merupakan NFT. Kini MetaMask memiliki dukungan asli penuh untuk NFT. Anda ingin menghapusnya dari daftar token dan menambahkannya sebagai NFT?"
+    "message": "Kami mendeteksi bahwa aset ini merupakan NFT. Kini MetaMask memiliki dukungan asli penuh untuk NFT. Ingin menghapusnya dari daftar token dan menambahkannya sebagai NFT?"
   },
   "convertTokenToNFTExistDescription": {
     "message": "Kami mendeteksi bahwa aset ini telah ditambahkan sebagai NFT. Anda ingin menghapusnya dari daftar token?"
@@ -1947,6 +1957,9 @@
   "network": {
     "message": "Jaringan:"
   },
+  "networkAddedSuccessfully": {
+    "message": "Jaringan berhasil ditambahkan!"
+  },
   "networkDetails": {
     "message": "Detail Jaringan"
   },
@@ -2063,6 +2076,9 @@
     "message": "Nonce lebih tinggi dari nonce $1 yang disarankan",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Masukkan ID koleksi"
   },
@@ -2158,7 +2174,7 @@
     "message": "Aktifkan mode gelap"
   },
   "notifications12Description": {
-    "message": "Mode Gelap akan diaktifkan untuk pengguna baru tergantung preferensi sistem mereka. Untuk pengguna lama, aktifkan Mode Gelap secara manual di bawah Pengaturan -> Eksperimental."
+    "message": "Mode gelap pada Ekstensi akhirnya hadir! Untuk menyalakannya, buka Pengaturan -> Eksperimental dan pilih salah satu opsi tampilan: Terang, Gelap, Sistem."
   },
   "notifications12Title": {
     "message": "Kapan mode gelap? Ini saatnya mode gelap! ️🕶️🦊"
@@ -2881,6 +2897,12 @@
   "showAdvancedGasInlineDescription": {
     "message": "Pilih ini untuk menampilkan biaya gas dan kontrol batas secara langsung di layar kirim dan konfirmasi."
   },
+  "showCustomNetworkList": {
+    "message": "Tampilkan Daftar Jaringan Khusus"
+  },
+  "showCustomNetworkListDescription": {
+    "message": "Pilih ini untuk menampilkan daftar jaringan dengan detail yang telah diisi saat menambahkan jaringan baru."
+  },
   "showFiatConversionInTestnets": {
     "message": "Tampilkan Konversi di Testnet"
   },
@@ -2989,6 +3011,9 @@
   },
   "snapsToggle": {
     "message": "Snap hanya akan beroperasi jika diaktifkan"
+  },
+  "someNetworksMayPoseSecurity": {
+    "message": "Beberapa jaringan dapat menimbulkan risiko keamanan dan/atau privasi. Pahami risikonya sebelum menambahkan & menggunakan jaringan."
   },
   "somethingWentWrong": {
     "message": "Ups! Ada yang salah."
@@ -3552,6 +3577,10 @@
   "switchNetworks": {
     "message": "Beralih Jaringan"
   },
+  "switchToNetwork": {
+    "message": "Beralih ke $1",
+    "description": "$1 represents the custom network that has previously been added"
+  },
   "switchToThisAccount": {
     "message": "Beralih ke akun ini"
   },
@@ -3855,6 +3884,9 @@
   "unknownCameraErrorTitle": {
     "message": "Ups! Ada yang salah..."
   },
+  "unknownCollection": {
+    "message": "Koleksi tanpa nama"
+  },
   "unknownNetwork": {
     "message": "Jaringan Privat Tidak Dikenal"
   },
@@ -3995,6 +4027,9 @@
   "walletCreationSuccessTitle": {
     "message": "Dompet berhasil dibuat"
   },
+  "wantToAddThisNetwork": {
+    "message": "Ingin menambahkan jaringan ini?"
+  },
   "warning": {
     "message": "Peringatan"
   },
@@ -4056,6 +4091,10 @@
   },
   "yesLetsTry": {
     "message": "Ya, mari kita coba"
+  },
+  "youHaveAddedAll": {
+    "message": "Anda telah menambahkan semua jaringan populer. Anda dapat menemukan lebih banyak jaringan $1 atau dapat $2",
+    "description": "$1 is a link with the text 'here' and $2 is a button with the text 'add more networks manually'"
   },
   "youNeedToAllowCameraAccess": {
     "message": "Anda harus mengizinkan akses kamera untuk menggunakan fitur ini."
